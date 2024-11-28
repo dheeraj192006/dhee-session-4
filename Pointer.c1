@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int x=10
+    int *ptr=&x;
+    // Write C code here
+    printf("Address of x;%\n",ptr);
+    printf("Value of x;%\n",*ptr);
+return 0;
+}
